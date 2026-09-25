@@ -41,4 +41,4 @@ console.log(typeof stringToBoolean)
 
 
 // empty string "" : false
-// string vale "cofee" : true
+// string value "cofee" : true
