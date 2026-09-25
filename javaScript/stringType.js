@@ -19,3 +19,13 @@ const stringPart = budsName.substring(1, 5)     // if a > b , it will be swapped
 
 const stringSlice = budsName.slice(-5,)        // if a > b -> returns ""
 console.log(stringSlice);                       //If start is negative: sets char from the end of string, exactly like substr().
+
+const coffeName = "      RAGE      "
+console.log(coffeName)
+console.log(coffeName.trim());
+
+const link = "https://github.com/md%20kaif"  // <---  "https://github.com/md kaif" (browser dont understand spaces)
+console.log(link.replace('%20', '-'));
+
+console.log(link.includes('github'))
+console.log(budsName.split('o'))
